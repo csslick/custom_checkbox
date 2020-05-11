@@ -1,4 +1,4 @@
-# custom_checkbox
+# custom_checkbox plug-in
 ![custom checkbox](./screenshot.png)
 
 ## Example page https://csslick.github.io/custom_checkbox/
