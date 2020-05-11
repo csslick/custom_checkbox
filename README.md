@@ -1,6 +1,6 @@
 # custom_checkbox plug-in
 ![custom checkbox](./screenshot.png)
-<p>채크상자를 커스텀 디자인 구현한 편리한 플러그인입니다.</p>
+채크상자를 커스텀 디자인 구현한 편리한 플러그인입니다.
 ## Example page https://csslick.github.io/custom_checkbox/
 ## Usage
 ```
