@@ -1,0 +1,12 @@
+.check_list input[type=checkbox] { display: none!important;}
+.check_list label{
+  display: inline-block;
+  width: 73px; height: 74px;
+  background: url('./unchecked.png');
+  text-indent: -9999px;
+}
+
+.check_list label.checked{
+  width: 73px; height: 74px;
+  background: url('./checked.png');
+}
