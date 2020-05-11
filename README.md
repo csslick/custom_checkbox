@@ -1,6 +1,6 @@
 # custom_checkbox
 
-##html
+## html
 ```
   <div class="check_list">
         <label for="">check</label>
