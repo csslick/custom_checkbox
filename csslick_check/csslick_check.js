@@ -1,3 +1,6 @@
+// 2020.05.11 By CSSLICK
+// https://github.com/csslick/custom_checkbox
+
 $(function(){
 
   // checkbox 객체
