@@ -22,7 +22,7 @@
     $(function () {
       // 옵션
       csslick_check({
-        el: ".check_list",  // 변경불가
+        el: ".check_list",  // 변경불가(fixed value)
         color: "black",     // 색상
       });
 
