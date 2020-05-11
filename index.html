@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSSLICK Custom checkbox</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./csslick_check/csslick_check.js"></script>
-  <link rel="stylesheet" href="./csslick_check/csslick_check.css">
-</head>
-<body>
-  <div class="check_list">
-        <label for="">check</label>
-        <input type="checkbox" name="check" checked>
-        <label for="">check</label>
-        <input type="checkbox" name="check">
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSSLICK Custom checkbox</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./csslick_check/csslick_check.js"></script>
+    <link rel="stylesheet" href="./csslick_check/csslick_check.css" />
+  </head>
+  <body>
+    <div class="check_list">
+      <label for="">check</label>
+      <input type="checkbox" name="check" checked />
+      <label for="">check</label>
+      <input type="checkbox" name="check" />
+    </div>
 
-</body>
+    <script>
+
+      $(function () {
+        // 커스텀 채크박스 플러그인 옵션
+        csslick_check({
+          el: ".check_list",  // 변경불가
+          color: "black",     // 색상
+        });
+
+      });
+
+    </script>
+  </body>
 </html>
