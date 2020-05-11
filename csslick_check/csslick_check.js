@@ -2,14 +2,22 @@ $(function(){
 
   // checkbox 객체
   var $check_box = $('.check_list input:checkbox');
+
+  // 채크박스 채크시 실행할 함수
+  var _callback = function(){
+    console.log('do something!')
+  }
+
   var handle_checkbox = function(){
     if($(this).is(":checked")) {
       var _id = $(this).attr('id')
       $('label[for=' + _id + ']').addClass('checked');
+      _callback();
     } else {
       var _id = $(this).attr('id')
       $('label[for=' + _id + ']').removeClass('checked');
     }
+    
   }
 
   $check_box.each(function(i, el){

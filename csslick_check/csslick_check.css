@@ -1,12 +1,17 @@
 .check_list input[type=checkbox] { display: none!important;}
 .check_list label{
   display: inline-block;
-  width: 73px; height: 74px;
-  background: url('./unchecked.png');
+  width: 50px; height:50px;
+  border: 4px solid #333;
+  border-radius: 6px;
+  background-image: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   text-indent: -9999px;
 }
 
 .check_list label.checked{
-  width: 73px; height: 74px;
-  background: url('./checked.png');
+  width: 50px; height: 50px;
+  background-image: url('./checked.png');
 }
