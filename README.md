@@ -17,4 +17,15 @@
         <label for="">check</label>
         <input type="checkbox" name="check">
   </div>
+  
+  <script>
+    $(function () {
+      // 옵션
+      csslick_check({
+        el: ".check_list",  // 변경불가
+        color: "black",     // 색상
+      });
+
+    });
+  </script>
  ```
