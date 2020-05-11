@@ -1,7 +1,7 @@
 # custom_checkbox
 ![custom checkbox](./screenshot.png)
 
-## Demo [Demo homepage](https://csslick.github.io/custom_checkbox/)
+## [example homepage](https://csslick.github.io/custom_checkbox/)
 ## Usage
 ```
 <head>
