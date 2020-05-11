@@ -1,5 +1,5 @@
 # custom_checkbox
-![custom checkbox](이미지 URL)
+![custom checkbox](./screenshot.png)
 
 ## html
 ```
