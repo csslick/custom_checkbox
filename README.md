@@ -1,7 +1,7 @@
 # custom_checkbox
 ![custom checkbox](./screenshot.png)
 
-## html
+## Usage
 ```
 <head>
   ...
